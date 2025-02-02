@@ -27,12 +27,12 @@
   
   <style scoped>
   .sidebar {
-    width: 200px;
+    height: 50px;
     background-color: #333;
     color: #fff;
     padding: 10px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
   button {
     margin: 10px 0;
@@ -40,6 +40,7 @@
     border: none;
     color: #fff;
     cursor: pointer;
+    justify-items: center;
   }
   button:hover {
     text-decoration: underline;

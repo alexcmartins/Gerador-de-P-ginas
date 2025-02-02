@@ -28,7 +28,7 @@
   <style scoped>
   .dashboard {
     display: flex;
-    height: 100vh;
+    flex-direction: column;
   }
   .content {
     flex: 1;

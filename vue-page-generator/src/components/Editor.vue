@@ -24,36 +24,8 @@ export default {
       const element = this.getElementByType(type);
       this.$emit("addElement", element);
     },
-    getElementByType(type) {
-      switch (type) {
-        case "title":
-          return { content: "<h1>Título</h1>", style: {} };
-        case "subtitle":
-          return { content: "<h2>Subtítulo</h2>", style: {} };
-        case "text":
-          return { content: "<p>Texto simples</p>", style: {} };
-        case "image":
-          return { content: '<img src="placeholder.jpg" />', style: {} };
-        case "button":
-          return { content: '<button>Botão</button>', style: {} };
-        case "card":
-          return { content: '<div class="card">Card</div>', style: {} };
-        case "container":
-          return { content: '<div class="container">Container</div>', style: {} };
-      }
-    },
-  },
-};
-</script>
-
-<style scoped>
-button {
-  margin: 5px;
-  padding: 10px;
-  cursor: pointer;
-}
-</style>
--->
+  };
+  </script>-->
 
 <template>
   <div>
@@ -94,4 +66,3 @@ export default {
   },
 };
 </script>
-
